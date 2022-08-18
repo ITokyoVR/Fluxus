@@ -1,0 +1,23 @@
+[Code = 0xC0000005]
+[ExceptSymbol = NoSym]
+[Eip = 0x77677A4E]
+[Eax = 0x29CCF0B0]
+[Ebx = 0x00000008]
+[Ecx = 0xC8719101]
+[Edx = 0x00000000]
+[Esi = 0x0950F940]
+[Edi = 0x00000000]
+[Ebp = 0x0950FB0C]
+[Esp = 0x0950FB04]
+[Dll Base = 0x00000000]
+
+[File: UnkFile] [Module: 54212438fb9311eb8c4c806e6f6e6963af83f4563e83601ba5a6da88fb50a8a1.dll]  [RebaseAddr: 0x005767D3]  [BaseAddr: 0x597D0000]
+[File: UnkFile] [Module: 54212438fb9311eb8c4c806e6f6e6963af83f4563e83601ba5a6da88fb50a8a1.dll]  [RebaseAddr: 0x005762DF]  [BaseAddr: 0x597D0000]
+[File: UnkFile] [Module: ucrtbase.dll]                                                          [RebaseAddr: 0x00444F9F]  [BaseAddr: 0x77300000]
+[File: UnkFile] [Module: KERNEL32.DLL]                                                          [RebaseAddr: 0x0041FA29]  [BaseAddr: 0x77210000]
+[File: UnkFile] [Module: ntdll.dll]                                                             [RebaseAddr: 0x00467A7E]  [BaseAddr: 0x77610000]
+[File: UnkFile] [Module: ntdll.dll]                                                             [RebaseAddr: 0x00467A4E]  [BaseAddr: 0x77610000]
+while task.wait() do
+game:GetService("ReplicatedStorage").Events.GrantItem:FireServer("Wand48")
+game:GetService("ReplicatedStorage").Events.Coins2:FireServer("Wand48")
+end

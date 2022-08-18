@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SySHub", "Sentinel")
+
+--Main--
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("MainSection")
+local Misc = Window:NewTab("Misc")
+local MiscSection = Misc:NewSection("MiscSection")
+
+
+MainSection:NewButton("Test", "Test Info", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnomalyRBLX/Database/main/Scripts/Pressure%20Wash%20Simulator"))()
+end)
+
+MiscSection:NewButton("Test", "Test Info", function()
+    print("Clicked")
+end)
